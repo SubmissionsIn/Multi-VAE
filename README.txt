@@ -7,5 +7,5 @@ TEST = Ture
 # run the code：
 python main.py
 
-# visual the generative model：
+# visualize the generative model：
 python Load_model_visual.py
