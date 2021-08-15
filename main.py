@@ -29,16 +29,15 @@ NMI_cz = []
 ACC_c = []
 ACC_cz = []
 
-datasets = ['Multi-COIL-10',       # 2, 5, 6
+datasets = ['Multi-COIL-10',       
             'Multi-COIL-20',
             'Object-Digit-Product',
             'Multi-MNIST',
             'Multi-FMNIST',
             'Digit-Product']
-# settings = [[1, 256], [1, 256], [0, 256], [1, 256], [1, 256], [0, 256]]  # share autoencoder, Batch_size
 settings = [[1, 32], [1, 32], [0, 32], [1, 64], [1, 64], [0, 64]]  # share autoencoder, Batch_size
 iters_to_add_capacity = [25000, 25000, 25000, 25000, 25000, 25000]
-for d in [0, 1, 2]:  # datasets index
+for d in [0]:  # datasets index
     DATA = datasets[d]
     share = settings[d][0]
     Batch_size = settings[d][1]
