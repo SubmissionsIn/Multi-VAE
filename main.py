@@ -50,7 +50,7 @@ for d in [0]:  # datasets index
     # for beta in [10, 20, 30, 40, 50]:
     #     for capacity in [3, 4, 5, 6, 7]:
     runs = 1
-    TEST = False
+    TEST = True
     for beta in [30]:
         for capacity in [5]:
             ACCc = 0
