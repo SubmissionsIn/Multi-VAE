@@ -8,7 +8,7 @@ from utils.MvLoad_models import load
 show = 1
 datasets = ['Multi-MNIST', 'Multi-FMNIST', 'Multi-COIL-10']
 settings = [[1, 2], [1, 3], [1, 3]]
-d_idex = 0
+d_idex = 2
 show_view = 1
 DATA = datasets[d_idex]
 share = settings[d_idex][0]
