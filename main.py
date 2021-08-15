@@ -20,7 +20,7 @@ def setup_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 
-# setup_seed(5)
+setup_seed(5)
 
 # os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
