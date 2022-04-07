@@ -1,19 +1,18 @@
-# settings in main.py
+# Accepted by ICCV 2021.
 
-TEST = Ture
-# when TEST = Ture, the code just test the trained Multi-VAE model
-# when TEST = False, the code will train Multi-VAE model 
+# Settings in main.py
 
-# run the code：
-python main.py
+# TEST = Ture
+  when TEST = Ture, the code just test the trained Multi-VAE model
+  when TEST = False, the code will train Multi-VAE model 
 
-# visualize the generative model：
-python Load_model_visual.py
+# Run the code：
+  python main.py
 
-# paper website
-https://openaccess.thecvf.com/content/ICCV2021/html/Xu_Multi-VAE_Learning_Disentangled_View-Common_and_View-Peculiar_Visual_Representations_for_Multi-View_ICCV_2021_paper.html
+# Visualize the generative model：
+  python Load_model_visual.py
 
-# citation
+# BibTex
 @InProceedings{Xu_2021_ICCV,
     author    = {Xu, Jie and Ren, Yazhou and Tang, Huayi and Pu, Xiaorong and Zhu, Xiaofeng and Zeng, Ming and He, Lifang},
     title     = {Multi-{VAE}: Learning Disentangled View-Common and View-Peculiar Visual Representations for Multi-View Clustering},
