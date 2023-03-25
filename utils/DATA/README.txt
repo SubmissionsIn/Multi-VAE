@@ -1,3 +1,7 @@
+Data & Model Link：https://pan.baidu.com/s/1CHQ5EDgNPkW37uanDztGjQ 
+Pass code：todz
+
+
 Disentangling multi-view information&representation has a strict condition that it is clear what view-common information and view-peculiar/private information to be disentangled. In order to verify the disentanglement effectiveness of visual representations in Multi-VAE, we constructed two kinds of datasets as follows:
 
 1. Multiple views are with view-common visual information and with different view-peculiar visual information. Such samples are constructed by the same datasets, where the view-common information among multiple views is the same sample object; and the view-peculiar information among multiple views is their different visual patterns. For convenience, these datasets are entitled Multi-MNIST, Multi-Fashion, Multi-COIL-10, and Multi-COIL-10.
