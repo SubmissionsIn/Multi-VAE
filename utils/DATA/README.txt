@@ -9,6 +9,7 @@ Disentangling multi-view information&representation has a strict condition that 
 2. Multiple views are with view-common semantic information but with different view-peculiar visual information. Such samples are constructed by different datasets, where the view-common information among multiple views is the same semantic category/label; and the view-peculiar information among multiple views is that they have different visual patterns coming from unrelated datasets. For convenience, these datasets are entitled Digit-Product and Object-Digit-Product.
 
 It should be noted that:
+
 1. Traditional multi-view datasets may not meet the requirement that multiple views contain view-common information and view-peculiar information that is obvious and can be disentangled. They may not be suitable for the model Multi-VAE as it focuses on disentanglement.
 
 2. If one needs to use the datasets we constructed, please refer to the original source of these datasets, as described in many previous publications.
