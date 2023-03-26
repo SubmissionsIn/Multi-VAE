@@ -12,4 +12,4 @@ It should be noted that:
 
 1. Traditional multi-view datasets may not meet the requirement that multiple views contain view-common information and view-peculiar information that is obvious and can be disentangled. They may not be suitable for the model Multi-VAE as it focuses on disentanglement.
 
-2. If one needs to use the datasets we constructed, please refer to the original source of these datasets, as described in many previous publications.
+2. This link provides the datasets and models. If one needs to use the datasets we constructed, please cite the original source of these datasets, as described in many previous publications.
